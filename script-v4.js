@@ -1,0 +1,2 @@
+// Two Bros Moe demo v4
+const p=new URLSearchParams(location.search),s=document.getElementById("service");if(s&&p.get("service"))s.value=p.get("service");const f=document.getElementById("quoteForm");if(f)f.addEventListener("submit",e=>{e.preventDefault();document.getElementById("message").textContent="Demo complete ✓ In a live version, this request would be delivered using the owner’s preferred contact workflow."});
